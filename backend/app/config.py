@@ -36,4 +36,4 @@ def get_settings() -> Settings:
 
     lru_cache means the .env file is read once, not on every request.
     """
-    return Settings()
+    return Settings() # type: ignore

@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets: never commit your API key
+.env
+
+# Local data: uploaded files and the vector database
+data/
+
+# macOS
+.DS_Store
